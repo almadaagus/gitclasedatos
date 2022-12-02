@@ -6,3 +6,5 @@ ggplot(data = iris) +
   geom_point()
 
 mean(iris$Sepal.Length)
+
+#Prueba de edición de archivo
