@@ -8,3 +8,5 @@ ggplot(data = iris) +
 mean(iris$Sepal.Length)
 
 #Prueba de edición de archivo
+
+View(iris)
