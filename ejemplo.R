@@ -2,5 +2,7 @@
 head(iris)
 library(ggplot2)
 ggplot(data = iris) +
-  aes(x = Sepal.Lenght, y = Sepal.Width)+
+  aes(x = Sepal.Length, y = Sepal.Width)+
   geom_point()
+
+mean(iris$Sepal.Length)
